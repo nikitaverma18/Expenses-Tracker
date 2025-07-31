@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Expense Tracker</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+  <div class="content-wrapper">
+    <h1 class="main-heading">Welcome to Expense Tracker</h1>
+    <p id="animated-text" class="animated-paragraph">Track your <span id="word"></span></p>
+
+    <div class="card">
+      <form id="loginForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="password">Create Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="expenseType">Expense Type</label>
+        <input type="text" id="expenseType" name="expenseType" placeholder="e.g., Daily Expense" required>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
